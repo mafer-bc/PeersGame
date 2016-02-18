@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D99EC9D1AE6F0E800FB7588 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D99EC9C1AE6F0E800FB7588 /* exit.png */; };
+		6D99ECA11AE6F16D00FB7588 /* ball2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D99EC9E1AE6F16D00FB7588 /* ball2.png */; };
+		6D99ECA21AE6F16D00FB7588 /* ball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D99EC9F1AE6F16D00FB7588 /* ball1.png */; };
+		6D99ECA31AE6F16D00FB7588 /* wall.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D99ECA01AE6F16D00FB7588 /* wall.png */; };
+		6D99ECAC1AE6F8E200FB7588 /* ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D99ECAA1AE6F8E200FB7588 /* ghost.png */; };
+		6D99ECAD1AE6F8E200FB7588 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D99ECAB1AE6F8E200FB7588 /* pacman.png */; };
 		6DD0B0CF1AE464AA0025BB34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B0CE1AE464AA0025BB34 /* main.m */; };
 		6DD0B0D21AE464AA0025BB34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B0D11AE464AA0025BB34 /* AppDelegate.m */; };
-		6DD0B0D51AE464AA0025BB34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B0D41AE464AA0025BB34 /* ViewController.m */; };
+		6DD0B0D51AE464AA0025BB34 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B0D41AE464AA0025BB34 /* GameController.m */; };
 		6DD0B0D81AE464AA0025BB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DD0B0D61AE464AA0025BB34 /* Main.storyboard */; };
 		6DD0B0DA1AE464AA0025BB34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DD0B0D91AE464AA0025BB34 /* Images.xcassets */; };
 		6DD0B0DD1AE464AA0025BB34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD0B0DB1AE464AA0025BB34 /* LaunchScreen.xib */; };
 		6DD0B0E91AE464AA0025BB34 /* MDFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B0E81AE464AA0025BB34 /* MDFinalTests.m */; };
+		6DD0B1011AE49F2C0025BB34 /* ConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD0B1001AE49F2C0025BB34 /* ConnectionController.m */; };
+		6DECE12F1AE57BA90095EEF3 /* MyMCSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DECE12E1AE57BA90095EEF3 /* MyMCSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +35,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D99EC9C1AE6F0E800FB7588 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		6D99EC9E1AE6F16D00FB7588 /* ball2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball2.png; sourceTree = "<group>"; };
+		6D99EC9F1AE6F16D00FB7588 /* ball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball1.png; sourceTree = "<group>"; };
+		6D99ECA01AE6F16D00FB7588 /* wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wall.png; sourceTree = "<group>"; };
+		6D99ECAA1AE6F8E200FB7588 /* ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghost.png; sourceTree = "<group>"; };
+		6D99ECAB1AE6F8E200FB7588 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
 		6DD0B0C91AE464AA0025BB34 /* MDFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD0B0CD1AE464AA0025BB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DD0B0CE1AE464AA0025BB34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DD0B0D01AE464AA0025BB34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6DD0B0D11AE464AA0025BB34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6DD0B0D31AE464AA0025BB34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6DD0B0D41AE464AA0025BB34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DD0B0D31AE464AA0025BB34 /* GameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		6DD0B0D41AE464AA0025BB34 /* GameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
 		6DD0B0D71AE464AA0025BB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DD0B0D91AE464AA0025BB34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6DD0B0DC1AE464AA0025BB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6DD0B0E21AE464AA0025BB34 /* MDFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD0B0E71AE464AA0025BB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DD0B0E81AE464AA0025BB34 /* MDFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDFinalTests.m; sourceTree = "<group>"; };
+		6DD0B0F21AE464C40025BB34 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		6DD0B1001AE49F2C0025BB34 /* ConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionController.m; sourceTree = "<group>"; };
+		6DECE12E1AE57BA90095EEF3 /* MyMCSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMCSession.m; sourceTree = "<group>"; };
+		6DECE1301AE57BE00095EEF3 /* MyMCSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMCSession.h; sourceTree = "<group>"; };
+		6DECE1321AE584C40095EEF3 /* ConnectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +82,7 @@
 		6DD0B0C01AE464AA0025BB34 = {
 			isa = PBXGroup;
 			children = (
+				6DD0B0F21AE464C40025BB34 /* CoreMotion.framework */,
 				6DD0B0CB1AE464AA0025BB34 /* MDFinal */,
 				6DD0B0E51AE464AA0025BB34 /* MDFinalTests */,
 				6DD0B0CA1AE464AA0025BB34 /* Products */,
@@ -83,8 +103,12 @@
 			children = (
 				6DD0B0D01AE464AA0025BB34 /* AppDelegate.h */,
 				6DD0B0D11AE464AA0025BB34 /* AppDelegate.m */,
-				6DD0B0D31AE464AA0025BB34 /* ViewController.h */,
-				6DD0B0D41AE464AA0025BB34 /* ViewController.m */,
+				6DECE1321AE584C40095EEF3 /* ConnectionController.h */,
+				6DD0B1001AE49F2C0025BB34 /* ConnectionController.m */,
+				6DECE1301AE57BE00095EEF3 /* MyMCSession.h */,
+				6DECE12E1AE57BA90095EEF3 /* MyMCSession.m */,
+				6DD0B0D31AE464AA0025BB34 /* GameController.h */,
+				6DD0B0D41AE464AA0025BB34 /* GameController.m */,
 				6DD0B0D61AE464AA0025BB34 /* Main.storyboard */,
 				6DD0B0D91AE464AA0025BB34 /* Images.xcassets */,
 				6DD0B0DB1AE464AA0025BB34 /* LaunchScreen.xib */,
@@ -96,7 +120,13 @@
 		6DD0B0CC1AE464AA0025BB34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D99ECAA1AE6F8E200FB7588 /* ghost.png */,
+				6D99ECAB1AE6F8E200FB7588 /* pacman.png */,
+				6D99EC9C1AE6F0E800FB7588 /* exit.png */,
 				6DD0B0CD1AE464AA0025BB34 /* Info.plist */,
+				6D99EC9E1AE6F16D00FB7588 /* ball2.png */,
+				6D99EC9F1AE6F16D00FB7588 /* ball1.png */,
+				6D99ECA01AE6F16D00FB7588 /* wall.png */,
 				6DD0B0CE1AE464AA0025BB34 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -168,6 +198,7 @@
 				TargetAttributes = {
 					6DD0B0C81AE464AA0025BB34 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 7X57YZE9N9;
 					};
 					6DD0B0E11AE464AA0025BB34 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -199,9 +230,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D99ECA21AE6F16D00FB7588 /* ball1.png in Resources */,
+				6D99ECAC1AE6F8E200FB7588 /* ghost.png in Resources */,
 				6DD0B0D81AE464AA0025BB34 /* Main.storyboard in Resources */,
+				6D99ECA11AE6F16D00FB7588 /* ball2.png in Resources */,
 				6DD0B0DD1AE464AA0025BB34 /* LaunchScreen.xib in Resources */,
 				6DD0B0DA1AE464AA0025BB34 /* Images.xcassets in Resources */,
+				6D99EC9D1AE6F0E800FB7588 /* exit.png in Resources */,
+				6D99ECA31AE6F16D00FB7588 /* wall.png in Resources */,
+				6D99ECAD1AE6F8E200FB7588 /* pacman.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD0B0D51AE464AA0025BB34 /* ViewController.m in Sources */,
+				6DECE12F1AE57BA90095EEF3 /* MyMCSession.m in Sources */,
+				6DD0B0D51AE464AA0025BB34 /* GameController.m in Sources */,
+				6DD0B1011AE49F2C0025BB34 /* ConnectionController.m in Sources */,
 				6DD0B0D21AE464AA0025BB34 /* AppDelegate.m in Sources */,
 				6DD0B0CF1AE464AA0025BB34 /* main.m in Sources */,
 			);
@@ -343,9 +382,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MDFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,9 +396,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MDFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -412,6 +459,7 @@
 				6DD0B0EE1AE464AA0025BB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DD0B0EF1AE464AA0025BB34 /* Build configuration list for PBXNativeTarget "MDFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +468,7 @@
 				6DD0B0F11AE464AA0025BB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

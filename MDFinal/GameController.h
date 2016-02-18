@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
 
-@interface ViewController : UIViewController
+@interface GameController : UIViewController
 
+//Property from the first view controller
+@property MCPeerID* myPeerID;
 
 @end
 

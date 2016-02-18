@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ConnectionController.h
 //  MDFinal
 //
 //  Created by Maria Fernanda Bojorquez Cavazos on 2015-04-19.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ConnectionController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+
 
 @end
-
